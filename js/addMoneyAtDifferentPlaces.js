@@ -41,13 +41,13 @@ document.getElementById('noakhali-btn').addEventListener('click', function(){
         //  Transactional history
 
         const now = new Date();
-            const hours = now.getHours().toString().padStart(2, '0');
-            const minutes = now.getMinutes().toString().padStart(2, '0');
-            const seconds = now.getSeconds().toString().padStart(2, '0');
+            // const hours = now.getHours().toString().padStart(2, '0');
+            // const minutes = now.getMinutes().toString().padStart(2, '0');
+            // const seconds = now.getSeconds().toString().padStart(2, '0');
 
         const div = document.createElement('div');
         div.innerHTML = `
-        <h3 class="text-bold"> ${money_want_to_give} Taka is Donate for Flood at Noakhali, Bangladesh</h3> 
+        <h3 class="font-bold"> ${money_want_to_give} Taka is Donate for Flood at Noakhali, Bangladesh</h3> 
        <p>Date: ${now.toLocaleDateString()} ${now.toLocaleTimeString()} </p>
 
         `
@@ -104,13 +104,13 @@ document.getElementById('feni-btn').addEventListener('click', function(){
         //  Transactional history
 
         const now = new Date();
-            const hours = now.getHours().toString().padStart(2, '0');
-            const minutes = now.getMinutes().toString().padStart(2, '0');
-            const seconds = now.getSeconds().toString().padStart(2, '0');
+            // const hours = now.getHours().toString().padStart(2, '0');
+            // const minutes = now.getMinutes().toString().padStart(2, '0');
+            // const seconds = now.getSeconds().toString().padStart(2, '0');
 
         const div = document.createElement('div');
         div.innerHTML = `
-        <h3 class="text-bold"> ${money_want_to_give} Taka is Donated for Flood Relief in Feni,Bangladesh</h3> 
+        <h3 class="font-bold"> ${money_want_to_give} Taka is Donated for Flood Relief in Feni,Bangladesh</h3> 
        
         <p>Date: ${now.toLocaleDateString()} ${now.toLocaleTimeString()} </p>
 
@@ -164,14 +164,14 @@ document.getElementById('movement-btn').addEventListener('click', function(){
           //  Transactional history
 
         const now = new Date();
-        const hours = now.getHours().toString().padStart(2, '0');
-        const minutes = now.getMinutes().toString().padStart(2, '0');
-        const seconds = now.getSeconds().toString().padStart(2, '0');
+        // const hours = now.getHours().toString().padStart(2, '0');
+        // const minutes = now.getMinutes().toString().padStart(2, '0');
+        // const seconds = now.getSeconds().toString().padStart(2, '0');
 
     const div = document.createElement('div');
     div.innerHTML = `
-    <h3 class="text-bold"> ${money_want_to_give} Taka is Donated for Aid for Injured in the Quota Movement,Bangladesh</h3> 
-    <p> ${hours}:${minutes}:${seconds} </p>
+    <h3 class="font-bold"> ${money_want_to_give} Taka is Donated for Aid for Injured in the Quota Movement,Bangladesh</h3> 
+    
     <p>Date: ${now.toLocaleDateString()} ${now.toLocaleTimeString()} </p>
 
     `
