@@ -12,11 +12,11 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="mx-auto px-5 py-3">
-    <!-- section 1 -->
+  <body class="mx-auto relative px-5 py-3">
+    <!-- nav_section -->
 
-    <section class="">
-      <!-- section 1 first part -->
+    <section class="sticky top-0">
+      <!-- nav_section part 1 -->
 
       <nav class="flex justify-evenly bg-[#F9F7F3] py-10">
         <div>
@@ -35,20 +35,22 @@
         </div>
       </nav>
 
-      <!-- section 1 part 2 -->
+      <!-- nav_section  part 2 -->
 
       <div class="flex items-center justify-center gap-x-2 py-10">
-        <button class="btn bg-lime-500 btn-outline">Donation</button>
-        <button class="btn btn-outline">History</button>
+        <button id="donation-btn" class="btn bg-lime-500 btn-outline">Donation</button>
+        <button id="history-btn" class="btn btn-outline">History</button>
       </div>
+
+      <div class="divider"></div>
     </section>
 
 
 
-    <main class="space-y-3">
+    <main id="donation-form" class="space-y-3">
 
       <!-- part1 -->
-      <section>
+      <section class="">
         <div class="hero">
           <div class="hero-content shadow-2xl space-x-3 space-y-3 rounded-lg flex-col lg:flex-row">
             <!-- left part -->
@@ -100,7 +102,7 @@
 
       <!-- part2 -->
       
-      <section class="mt-3">
+      <section class="donation mt-3">
         <div class="hero">
           <div class="hero-content shadow-2xl space-x-3 space-y-3 rounded-lg flex-col lg:flex-row">
             <!-- left part -->
@@ -147,7 +149,7 @@
     
       <!-- part3 start -->
 
-      <section>
+      <section class="donation">
         <div class="hero">
           <div class="hero-content mb-5 shadow-2xl space-x-3 space-y-3 rounded-lg flex-col lg:flex-row">
             <!-- left part -->
@@ -193,7 +195,22 @@
       </section>
 
       <!-- part3 end -->
+
+     
+      
     </main>
+
+    <!-- transaction start -->
+  
+    <div id="transaction-form" class="hidden">
+        <div id="transaction-container" class="space-y-3 gap-y-2 bg-lime-400 text-center shadow-2xl">
+
+        </div>
+     </div>
+
+     <!-- transaction end -->
+
+    
 
     <script src="js/addMoneyAtDifferentPlaces.js"></script>
     <script src="js/addMoneyFunction.js"></script>
