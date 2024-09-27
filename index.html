@@ -30,7 +30,7 @@
 
         <div class="flex items-center gap-x-2">
           <img src="assets/coin.png" alt="" />
-          <p>5500</p>
+          <p id="my-balance">5500</p>
           <p>BDT</p>
         </div>
       </nav>
@@ -61,7 +61,7 @@
 
               <div class="flex items-center bg-lime-400 rounded-lg p-1 gap-x-2">
                 <img src="assets/coin.png" alt="" />
-                <p>0.00</p>
+                <p id="noakhali-balance">0.00</p>
                 <p>BDT</p>
               </div>
 
@@ -83,7 +83,7 @@
               </div>
 
               <div>
-                <input
+                <input id="noakhali-input"
                   type="text"
                   placeholder="Write Donation Amount"
                   class="input input-bordered input-primary w-full max-w-xs"
@@ -91,7 +91,7 @@
               </div>
 
               <div class="form-control mt-2">
-                <button class="btn btn-primary">Donate Now</button>
+                <button id="noakhali-btn" class="btn btn-primary">Donate Now</button>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@
 
               <div class="flex items-center bg-lime-400 rounded-lg p-1 gap-x-2">
                 <img src="assets/coin.png" alt="" />
-                <p>0.00</p>
+                <p id="feni-balance">0.00</p>
                 <p>BDT</p>
               </div>
 
@@ -130,7 +130,7 @@
               </div>
 
               <div>
-                <input
+                <input id="feni-input"
                   type="text"
                   placeholder="Write Donation Amount"
                   class="input input-bordered input-primary w-full max-w-xs"
@@ -138,7 +138,7 @@
               </div>
 
               <div class="form-control mt-2">
-                <button class="btn btn-primary">Donate Now</button>
+                <button id="feni-btn" class="btn btn-primary">Donate Now</button>
               </div>
             </div>
           </div>
@@ -160,7 +160,7 @@
 
               <div class="flex items-center bg-lime-400 rounded-lg p-1 gap-x-2">
                 <img src="assets/coin.png" alt="" />
-                <p>0.00</p>
+                <p id="movement-balance">0.00</p>
                 <p>BDT</p>
               </div>
 
@@ -177,7 +177,7 @@
               </div>
 
               <div>
-                <input
+                <input id="movement-input"
                   type="text"
                   placeholder="Write Donation Amount"
                   class="input input-bordered input-primary w-full max-w-xs"
@@ -185,7 +185,7 @@
               </div>
 
               <div class="form-control mt-2">
-                <button class="btn btn-primary">Donate Now</button>
+                <button id="movement-btn" class="btn btn-primary">Donate Now</button>
               </div>
             </div>
           </div>
@@ -194,5 +194,8 @@
 
       <!-- part3 end -->
     </main>
+
+    <script src="js/addMoneyAtDifferentPlaces.js"></script>
+    <script src="js/addMoneyFunction.js"></script>
   </body>
 </html>
