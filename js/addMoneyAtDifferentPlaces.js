@@ -47,7 +47,7 @@ document.getElementById('noakhali-btn').addEventListener('click', function(){
 
         const div = document.createElement('div');
         div.innerHTML = `
-        <h3 class="font-bold"> ${money_want_to_give} Taka is Donate for Flood at Noakhali, Bangladesh</h3> 
+        <h3 class="font-bold"> ${money_want_to_give} Taka is Donated for Flood at Noakhali, Bangladesh</h3> 
        <p>Date: ${now.toLocaleDateString()} ${now.toLocaleTimeString()} </p>
 
         `
@@ -199,5 +199,23 @@ document.getElementById('history-btn').addEventListener('click', function(){
     // remove 
     document.getElementById('transaction-form').classList.remove('hidden');
 })
+
+
+
+// Blog button clicked 
+
+document.getElementById('blog-btn').addEventListener('click', function(){
+
+    document.getElementById('blog-btn').innerText = 'Home';
+
+    window.open('blog.html', '_self');
+
+       //window.location.href = 'blog.html';
+    //    window.open(
+    //     'index.html', 
+    //     '_self'
+    // );
+       
+});
 
 
