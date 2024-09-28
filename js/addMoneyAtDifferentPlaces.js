@@ -206,15 +206,10 @@ document.getElementById('history-btn').addEventListener('click', function(){
 
 document.getElementById('blog-btn').addEventListener('click', function(){
 
-    document.getElementById('blog-btn').innerText = 'Home';
 
     window.open('blog.html', '_self');
 
-       //window.location.href = 'blog.html';
-    //    window.open(
-    //     'index.html', 
-    //     '_self'
-    // );
+     
        
 });
 
